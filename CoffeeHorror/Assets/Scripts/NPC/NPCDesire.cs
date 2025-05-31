@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using static UnityEditor.Timeline.Actions.MenuPriority;
 
 public class NPCDesire : MonoBehaviour
 {
@@ -25,7 +24,6 @@ public class NPCDesire : MonoBehaviour
                 if (thiseItem.item == _NPCNeadItemm.needItem[i])
                 {
                     OnAddItem?.Invoke(thiseItem);
-                    m_AudioSource.PlayOneShot(audioClip);
                     Debug.Log("NPC говорит это то что я хотел");
                     _NPCNeadItemm.needItem.RemoveAt(i);
                     Destroy(other.gameObject);
@@ -36,6 +34,7 @@ public class NPCDesire : MonoBehaviour
             if (_NPCNeadItemm.needItem.Count == 0)
             {
                 OnGoBack?.Invoke(true);
+                m_AudioSource.PlayOneShot(audioClip);
                 Debug.Log("Я всё взял пойду домой");
             }
         }

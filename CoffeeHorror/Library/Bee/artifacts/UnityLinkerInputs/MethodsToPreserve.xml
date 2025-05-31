@@ -1,11 +1,18 @@
 <linker>
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="CutSceneStart">
+			<method name="LoadSceneMode"/>
+		</type>
 		<type fullname="ESC">
 			<method name="ClouseBasePanelESC"/>
+			<method name="ClouseBasePanelESC"/>
+			<method name="ClouseDopPanelESC"/>
 			<method name="ClouseDopPanelESC"/>
 			<method name="ExitGame"/>
 			<method name="LoadScene"/>
 			<method name="LoadScene"/>
+			<method name="LoadScene"/>
+			<method name="RestartScene"/>
 			<method name="RestartScene"/>
 		</type>
 	</assembly>

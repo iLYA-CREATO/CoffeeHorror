@@ -8,6 +8,7 @@ public class Wallet : MonoBehaviour
 
     [SerializeField]
     private TextMeshProUGUI textWallet;
+
     private void OnEnable()
     {
         OrderUI.OnSpawnNextNPC += AddMoney;

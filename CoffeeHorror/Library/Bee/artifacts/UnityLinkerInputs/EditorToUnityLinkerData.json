@@ -44,6 +44,13 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "CutSceneStart",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "DelayedCallManager",
             "fullManagedTypeName": "",
@@ -64,6 +71,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -88,6 +96,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -127,12 +136,20 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "LampStreetHorror",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "LevelGameManager",
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -164,6 +181,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -181,6 +199,7 @@
             "moduleName": "AI",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -194,7 +213,7 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "NPCNeadItemm",
+            "fullManagedTypeName": "NPCNeedItem",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -202,6 +221,20 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "NPCWaypointWalker",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "OrderData",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "OrderUI",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -353,12 +386,34 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Unity.Cinemachine.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Unity.Cinemachine.CinemachineBrain",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Cinemachine.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Unity.Cinemachine.CinemachineCamera",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Cinemachine.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Unity.Cinemachine.CinemachineTrack",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "AnimatorController",
             "fullManagedTypeName": "UnityEditor.Animations.AnimatorController",
             "moduleName": "Animation",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -390,6 +445,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -453,6 +509,7 @@
             "moduleName": "Animation",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -463,6 +520,7 @@
             "moduleName": "Animation",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -472,7 +530,9 @@
             "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/Game.unity"
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -481,7 +541,9 @@
             "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/Game.unity"
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -491,6 +553,7 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -500,7 +563,9 @@
             "fullManagedTypeName": "UnityEngine.AudioClip",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/Game.unity"
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -510,6 +575,7 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -519,7 +585,9 @@
             "fullManagedTypeName": "UnityEngine.AudioSource",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/Game.unity"
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
+                "Assets/Scenes/MainMenu.unity"
             ]
         },
         {
@@ -528,7 +596,8 @@
             "fullManagedTypeName": "UnityEngine.Avatar",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/Game.unity"
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity"
             ]
         },
         {
@@ -538,6 +607,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -548,6 +618,7 @@
             "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -558,6 +629,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -568,6 +640,7 @@
             "moduleName": "UI",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -578,6 +651,7 @@
             "moduleName": "UI",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -587,7 +661,8 @@
             "fullManagedTypeName": "UnityEngine.CapsuleCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/Game.unity"
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity"
             ]
         },
         {
@@ -596,7 +671,8 @@
             "fullManagedTypeName": "UnityEngine.CharacterController",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/Game.unity"
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity"
             ]
         },
         {
@@ -606,6 +682,7 @@
             "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -616,6 +693,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -658,6 +736,7 @@
             "moduleName": "TextRendering",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -668,6 +747,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -720,6 +800,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -730,6 +811,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -739,7 +821,8 @@
             "fullManagedTypeName": "UnityEngine.LightProbes",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Game.unity"
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity"
             ]
         },
         {
@@ -749,6 +832,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -759,6 +843,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -769,6 +854,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -779,6 +865,7 @@
             "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -789,6 +876,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -799,6 +887,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -809,6 +898,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -819,6 +909,7 @@
             "moduleName": "Animation",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -829,7 +920,17 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "PlayableDirector",
+            "fullManagedTypeName": "UnityEngine.Playables.PlayableDirector",
+            "moduleName": "Director",
+            "usedInScenes": [
+                "Assets/Scenes/KatScene.unity"
             ]
         },
         {
@@ -846,6 +947,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -856,6 +958,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -864,13 +967,6 @@
             "nativeClass": "GraphicsSettings",
             "fullManagedTypeName": "UnityEngine.Rendering.GraphicsSettings",
             "moduleName": "Core",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.RenderPipelines.Core.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.Rendering.ProbeVolumeBakingSet",
-            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -1300,6 +1396,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -1310,6 +1407,7 @@
             "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -1320,6 +1418,7 @@
             "moduleName": "Animation",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -1330,6 +1429,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -1339,7 +1439,8 @@
             "fullManagedTypeName": "UnityEngine.SkinnedMeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Game.unity"
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity"
             ]
         },
         {
@@ -1348,7 +1449,8 @@
             "fullManagedTypeName": "UnityEngine.SphereCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/Game.unity"
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity"
             ]
         },
         {
@@ -1358,6 +1460,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -1368,6 +1471,7 @@
             "moduleName": "Terrain",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -1378,6 +1482,7 @@
             "moduleName": "TerrainPhysics",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -1388,6 +1493,7 @@
             "moduleName": "Terrain",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -1398,6 +1504,7 @@
             "moduleName": "Terrain",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -1408,6 +1515,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -1418,6 +1526,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -1428,8 +1537,93 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Unity.Timeline.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Timeline.ActivationPlayableAsset",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Timeline.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Timeline.ActivationTrack",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Timeline.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Timeline.AnimationPlayableAsset",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Timeline.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Timeline.AnimationTrack",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Timeline.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Timeline.AudioPlayableAsset",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Timeline.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Timeline.AudioTrack",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Timeline.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Timeline.GroupTrack",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Timeline.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Timeline.SignalAsset",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Timeline.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Timeline.SignalEmitter",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Timeline.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Timeline.SignalReceiver",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Timeline.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Timeline.SignalTrack",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Timeline.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Timeline.TimelineAsset",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
@@ -1438,6 +1632,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Game.unity",
+                "Assets/Scenes/KatScene.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -1466,6 +1661,13 @@
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.UI.GraphicRaycaster",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.GridLayoutGroup",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -1529,6 +1731,13 @@
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.UI.VerticalLayoutGroup",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Wallet",
             "moduleName": "",
             "usedInScenes": []
         }

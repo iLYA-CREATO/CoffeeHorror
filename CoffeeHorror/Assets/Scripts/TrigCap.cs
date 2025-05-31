@@ -23,7 +23,7 @@ public class TrigCap : MonoBehaviour
             return;
         }
 
-        if (thiseItem.item.id == "_Coffee")
+        if (other.GetComponent<ThiseItem>().item.id == "_Cap")
         {
             if(coffee.activeSelf) // Проверим с начало налили ли мы кофе в стакан
             {

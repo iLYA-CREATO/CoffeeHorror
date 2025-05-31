@@ -5,6 +5,9 @@ using UnityEngine;
 public class SpawnNPC : MonoBehaviour
 {
     [SerializeField]
+    private int maxValueOrder;
+
+    [SerializeField]
     private List<GameObject> prefabNPC;
 
     [SerializeField]
@@ -56,7 +59,7 @@ public class SpawnNPC : MonoBehaviour
         NPCWaypointWalker nPCToCashier;
         nPCToCashier = NPCInstance.gameObject.GetComponent<NPCWaypointWalker>();
 
-        int rnd = Random.Range(1,10);
+        int rnd = Random.Range(1,maxValueOrder);
         for(int i = 0; i < rnd; i++)
         {
             generateItem.Add(allItemGame[GenerateNumber(0, allItemGame.Count)]);
