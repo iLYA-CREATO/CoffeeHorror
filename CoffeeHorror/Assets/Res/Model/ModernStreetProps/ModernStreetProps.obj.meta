@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: 858edbc587c09664187ad430584824ce
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Railing2Mat
+    second: {fileID: 2100000, guid: 06ecf5f052e096348877c0f5989c261f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RailingMat
+    second: {fileID: 2100000, guid: cd1991ecb66f26d4086ec469e39b0262, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Railing_BannerMat
+    second: {fileID: 2100000, guid: 97c4f3e5071e65344815a67674ad642d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Railing_Banner_Holder1Mat
+    second: {fileID: 2100000, guid: 0eff907a146879e4ca86e0635c2a8c75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Railing_Banner_Holder2Mat
+    second: {fileID: 2100000, guid: 587d0ee2a336ff74bbeda2757f2a4dc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Railing_Banner_Holder3Mat
+    second: {fileID: 2100000, guid: bfcb1912a97a0594ca4173589d9997b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Railing_Banner_HolderMat
+    second: {fileID: 2100000, guid: 9b9959a227f5bb34087b6b974d1d6ba4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Railing_Banner_Holder_Plastic1Mat
+    second: {fileID: 2100000, guid: 66a69c307d2fc4a45993c255b4fd5a3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Railing_Banner_Holder_Plastic2Mat
+    second: {fileID: 2100000, guid: 04ee3cc72821f0b469edfbc33d7eb076, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Railing_Banner_Holder_Plastic3Mat
+    second: {fileID: 2100000, guid: 9d0d465ebc3aa6047852860166b09d7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Railing_Banner_Holder_PlasticMat
+    second: {fileID: 2100000, guid: 62ced2f6f6fccd644be66095d66255e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Railing_Banner_PlasticMat
+    second: {fileID: 2100000, guid: cbcb90a584bb7c543b1e70565b57c6b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Railing_MidrailsMat
+    second: {fileID: 2100000, guid: ad50abca084d28343b98bb262229ee6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Railing_Midrails_BentMat
+    second: {fileID: 2100000, guid: 5a9c80d0d5d42ea41ae8e6be7ad58df0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Railing_Midrails_Bent_PlasticMat
+    second: {fileID: 2100000, guid: cafa8fdf6b617d041a3904e876c6c986, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Railing_Midrails_PlasticMat
+    second: {fileID: 2100000, guid: 2c73fb924ae51d745a43a403a1600628, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Railing_Plastic2Mat
+    second: {fileID: 2100000, guid: 5ce7dc417d3d73b45aded7ed760b861f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Railing_PlasticMat
+    second: {fileID: 2100000, guid: 656ac476b7303d643a981869c95cf5b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag46Mat
+    second: {fileID: 2100000, guid: 6362013b5288fdb4ea45a11965a0631a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag47Mat
+    second: {fileID: 2100000, guid: 975ad47cac343764aa19cd5e474b954f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag48Mat
+    second: {fileID: 2100000, guid: e4f048211a8060e4296ecf2cd9a33aa3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag49Mat
+    second: {fileID: 2100000, guid: c37e999dceced1249b2d53c311ee89f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag50Mat
+    second: {fileID: 2100000, guid: ff4813ec44d7b5045acd1e77fc551fff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag51Mat
+    second: {fileID: 2100000, guid: 57cc2b116ee45734d8c03ea86ed33f4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag52Mat
+    second: {fileID: 2100000, guid: 3af819f066c9fbe4b856148451ef53e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag53Mat
+    second: {fileID: 2100000, guid: 56c112874ffda914a8b39260b76bc818, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag54Mat
+    second: {fileID: 2100000, guid: 06a6227bfe1e81543a61062282caa7ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag55Mat
+    second: {fileID: 2100000, guid: 7936ff5487c49dc46916633fe8f2b8c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag56Mat
+    second: {fileID: 2100000, guid: d70be7f419102e04e88b3427d7ea41b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag57Mat
+    second: {fileID: 2100000, guid: 7545efd89121a1545bb48dcd3137d00a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag58Mat
+    second: {fileID: 2100000, guid: 0807f18a18667bd47901de9513fe7a85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag59Mat
+    second: {fileID: 2100000, guid: 023166f98f715154ca37d9c22e152c65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag60Mat
+    second: {fileID: 2100000, guid: 43a34b889fa50d84c9c0cfc96bf6a51d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag61Mat
+    second: {fileID: 2100000, guid: a3d6e50a606865646a2d31dac74d94c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag62Mat
+    second: {fileID: 2100000, guid: e1a4efc6be1767b4c95332789fab37f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag63Mat
+    second: {fileID: 2100000, guid: 75b0de40a83928f40bb7877d61252d24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag64Mat
+    second: {fileID: 2100000, guid: 43972b1fc45fea548b4c1fa9b881dec9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag65Mat
+    second: {fileID: 2100000, guid: b7513ad305fa04e43a79e037471da56b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag66Mat
+    second: {fileID: 2100000, guid: ad62d239c745b2f40a15bca60a6ccd61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag67Mat
+    second: {fileID: 2100000, guid: 280f1e74e348e8d429a3070a99fa8adb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag68Mat
+    second: {fileID: 2100000, guid: 211601919e800834daf54799ea0b5547, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag69Mat
+    second: {fileID: 2100000, guid: 61a5d62d8c5fc6b4b9f51674e4d2162d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag70Mat
+    second: {fileID: 2100000, guid: b3c1f572f185b4949aeb17931979de20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag71Mat
+    second: {fileID: 2100000, guid: 1a69b21ab87f48949ba26b1b14a1127c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag72Mat
+    second: {fileID: 2100000, guid: 4dee4ec1e0f5dca45b90500e084de99b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBag73Mat
+    second: {fileID: 2100000, guid: f936b245919d113449a6cb7b3299a4ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashcanBase1Mat
+    second: {fileID: 2100000, guid: 9d3acf27e98a0c241821715f5c5e9e5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashcanBase2Mat
+    second: {fileID: 2100000, guid: f35ea77b6865efa44ae2b3dd0c1af136, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashcanBase3Mat
+    second: {fileID: 2100000, guid: 6ded58a7a98b02645b0a256a30ed1adb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashcanBaseMat
+    second: {fileID: 2100000, guid: 8ec81e1336dc8614587d255bb421b01c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashcanHandle1Mat
+    second: {fileID: 2100000, guid: 6e0999c1a0d263d4392758c830f70e01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashcanHandle2Mat
+    second: {fileID: 2100000, guid: 18bd6973e4bc1c844a0f66225fa8f2d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashcanHandle3Mat
+    second: {fileID: 2100000, guid: d6c0c63c60732514daf19e0927d7febf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashcanHandleMat
+    second: {fileID: 2100000, guid: fc58201c92d7bbe4bb4fcef685eef46c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashcanLid1Mat
+    second: {fileID: 2100000, guid: 975bd091a9c01c749a94e0a7e096fb6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashcanLid2Mat
+    second: {fileID: 2100000, guid: e0fd54e6e30a4aa49b8de3700a1626bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashcanLid3Mat
+    second: {fileID: 2100000, guid: e38d532eadc314f429b6175b6b14cc0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashcanLidMat
+    second: {fileID: 2100000, guid: aac7bbeb61ac68949adfdd60f7c1b639, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashcanWheel1Mat
+    second: {fileID: 2100000, guid: 6be44f8ca2bfb5548bc284a50a92312d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashcanWheel2Mat
+    second: {fileID: 2100000, guid: 1520176584494854ea6089620d08641b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashcanWheel3Mat
+    second: {fileID: 2100000, guid: dfe550605767f4e40acc0d9e209a50c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashcanWheel4Mat
+    second: {fileID: 2100000, guid: b5e349254aa996b4a996dc0157af6ab8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashcanWheel5Mat
+    second: {fileID: 2100000, guid: 9197e92add632b24387020633c78e507, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashcanWheel6Mat
+    second: {fileID: 2100000, guid: 686e55b7c02428848944baaea702acea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashcanWheel7Mat
+    second: {fileID: 2100000, guid: f6108687440c7484d98bcd395484a8c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashcanWheel8Mat
+    second: {fileID: 2100000, guid: b3cdebed1252b89458d741f2a785b8e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashcanWheelBar1Mat
+    second: {fileID: 2100000, guid: e4c085f0dfb4dbb449ba663e2a646108, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashcanWheelBar2Mat
+    second: {fileID: 2100000, guid: 0aaa960d304b03741b79a5565587f3b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashcanWheelBar3Mat
+    second: {fileID: 2100000, guid: 7c6823f856418614f9a4951772dd9047, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashcanWheelBarMat
+    second: {fileID: 2100000, guid: 8dd35c1e7b414934991ca7e2a5f31dd4, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.16
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.16
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -17,18 +17,21 @@ public class PlayerController : MonoBehaviour
     private CharacterController characterController;
     private Vector3 velocity;
     private float rotationX = 0;
+    private bool lockController;
 
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
-        Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
 
     private void Update()
     {
-        HandleMovement();
-        HandleCameraRotation();
+        if (lockController == false)
+        {
+            HandleMovement();
+            HandleCameraRotation();
+        }
     }
 
     private void HandleMovement()
@@ -71,5 +74,10 @@ public class PlayerController : MonoBehaviour
         rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
         cameraHolder.localRotation = Quaternion.Euler(rotationX, 0, 0);
         transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
+    }
+
+    public void LockController(bool isLock)
+    {
+        lockController = isLock;
     }
 }
