@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638835331176437275
-    m_Hash: 169290206
+      ticks: 638842501293380368
+    m_Hash: 1749336908
   m_LockFileStatus:
     m_FilePath: E:/fails/iT/Isxodnik/Git/CoffeeHorror/CoffeeHorror/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638835331176853106
-    m_Hash: 1229248123
+      ticks: 638842501294125159
+    m_Hash: 2702906131
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,10 +22,10 @@ m_LocalPackages:
 m_ProjectPath: E:/fails/iT/Isxodnik/Git/CoffeeHorror/CoffeeHorror/Packages
 m_EditorVersion: 6000.0.33f1 (433b0a79340b)
 m_ResolvedPackages:
-- packageId: com.unity.ai.navigation@2.0.5
+- packageId: com.unity.ai.navigation@2.0.8
   testable: 0
   isDirectDependency: 1
-  version: 2.0.5
+  version: 2.0.8
   source: 1
   resolvedPath: E:\fails\iT\Isxodnik\Git\CoffeeHorror\CoffeeHorror\Library\PackageCache\com.unity.ai.navigation
   assetPath: Packages/com.unity.ai.navigation
@@ -63,11 +63,13 @@ m_ResolvedPackages:
     - 2.0.5
     - 2.0.6
     - 2.0.7
+    - 2.0.8
     compatible:
     - 2.0.5
     - 2.0.6
     - 2.0.7
-    recommended: 2.0.7
+    - 2.0.8
+    recommended: 2.0.8
     deprecated: []
   dependencies:
   - name: com.unity.modules.ai
@@ -106,13 +108,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638675282916940000
+  datePublishedTicks: 638841129733020000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
-    revision: 110941630e19b3574f9f81fd6fe3c28e867a9321
+    revision: edeb8e889d1eedf4001fa41bdab7d69d01a62f24
     path: 
   unityLifecycle:
     version: 2.0.5
@@ -125,16 +127,16 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n* NavMesh Link would not update when switching
-    from the **Not Walkable** area type to any other area type in the inspector.
-    (NAVB-87)\n* A few documentation paragraphs and links were not accurate."}'
+  upmReserved: '{"changelog":"### Fixed\n* Samples will now use appropriate material
+    colors in projects using HDRP or URP. Install the **com.unity.shadergraph** package
+    to show the materials correctly for built-in render pipeline projects."}'
   assetStore:
     productId: 
-  fingerprint: 9f76b145f0a8dd734ff2a4877f7f7edb83b7f62c
+  fingerprint: eb5635ad590d47cef2a5c920d9475cc222db3f67
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.5
-    minimumUnityVersion: 2023.2.0a18
+    minimumUnityVersion: 6000.0.0a1
 - packageId: com.unity.collab-proxy@2.8.2
   testable: 0
   isDirectDependency: 1
@@ -301,10 +303,10 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.6.0
     minimumUnityVersion: 2021.3.0f1
-- packageId: com.unity.ide.rider@3.0.31
+- packageId: com.unity.ide.rider@3.0.36
   testable: 0
   isDirectDependency: 1
-  version: 3.0.31
+  version: 3.0.36
   source: 1
   resolvedPath: E:\fails\iT\Isxodnik\Git\CoffeeHorror\CoffeeHorror\Library\PackageCache\com.unity.ide.rider
   assetPath: Packages/com.unity.ide.rider
@@ -315,7 +317,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
@@ -394,13 +396,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638548308080000000
+  datePublishedTicks: 638799562419060000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: ccd778a2275ff09f1a83bc924cfb2fb4d5b63566
+    revision: b5315083ab3861d21f6ab2ed0d9514daf04bf208
     path: 
   unityLifecycle:
     version: 3.0.31
@@ -413,21 +415,19 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"fix RIDER-104519 Rider is reporting errors in scripts
-    that work fine in Unity when utilizing DOTS - when Player project, by generating
-    projects for all assemblies in \"com.unity.entities\", \"com.unity.collections\"\nfix
-    RIDER-111622 Unity Rider package is not compatible with Rider Dev builds"}'
+  upmReserved: '{"changelog":"- fix RIDER-124592 Avoid affecting \"Strip Engine Code\"
+    while IL2CPP debug enabled"}'
   assetStore:
     productId: 
-  fingerprint: 7921be93db40ec070fcb01ed82d1c3df1bbdddcd
+  fingerprint: 4d374c7eb6db6907c7e6925e3086c3c73f926e13
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 3.0.31
-    minimumUnityVersion: 2019.2.6f1
-- packageId: com.unity.ide.visualstudio@2.0.22
+    minimumUnityVersion: 2019.4.6f1
+- packageId: com.unity.ide.visualstudio@2.0.23
   testable: 0
   isDirectDependency: 1
-  version: 2.0.22
+  version: 2.0.23
   source: 1
   resolvedPath: E:\fails\iT\Isxodnik\Git\CoffeeHorror\CoffeeHorror\Library\PackageCache\com.unity.ide.visualstudio
   assetPath: Packages/com.unity.ide.visualstudio
@@ -438,7 +438,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -480,7 +480,7 @@ m_ResolvedPackages:
     version: 1.1.9
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.4.5
+    version: 1.4.6
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
@@ -500,13 +500,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638326061910000000
+  datePublishedTicks: 638786696173840000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 700b44077345e97d37d464ff25507638983aed64
+    revision: 0fe3b29f9aff2b90b9f0962ae35036a824d3dd6b
     path: 
   unityLifecycle:
     version: 2.0.22
@@ -519,15 +519,14 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"Integration:\n\n- Add support for `XDG_DATA_DIRS` and
-    `.desktop` files on Linux for `VS Code` discovery.\n- Use compile-time platform-specifics
-    instead of using runtime conditions.\n\nProject generation:\n\n- Suppress `USG0001`
-    warnings.\n- Mark referenced assemblies as private (to not copy extra files to
-    output directory when building).\n- Add Unity capability to SDK-Style projects.\n-
-    Prevent circular dependency errors with SDK-Style projects."}'
+  upmReserved: '{"changelog":"Integration:\n\n- Monitor `additionalfile` extension
+    by default.\n- Try opening a Visual Studio Code workspace if there''s one (`.code-workspace`
+    file in the Unity project).\n\nProject generation:\n\n- Identify `asset`, `meta`,
+    `prefab` and `unity` files as `yaml` (Visual Studio Code).\n- Add `sln`/`csproj`
+    file nesting (Visual Studio Code).\n- Improve SDK style project generation."}'
   assetStore:
     productId: 
-  fingerprint: 8140e851d83e922ca2021b04a89519de94ebe38c
+  fingerprint: 198cdf337d13c83ca953581515630d66b779e92b
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.22
@@ -781,6 +780,120 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 6000.0.0a1
+- packageId: com.unity.postprocessing@3.4.0
+  testable: 0
+  isDirectDependency: 1
+  version: 3.4.0
+  source: 1
+  resolvedPath: E:\fails\iT\Isxodnik\Git\CoffeeHorror\CoffeeHorror\Library\PackageCache\com.unity.postprocessing
+  assetPath: Packages/com.unity.postprocessing
+  name: com.unity.postprocessing
+  displayName: Post Processing
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: The post-processing stack (v2) comes with a collection of effects
+    and image filters you can apply to your cameras to improve the visuals of your
+    games.
+  errors: []
+  versions:
+    all:
+    - 0.1.7
+    - 0.1.8
+    - 2.0.0-beta
+    - 2.0.1-beta
+    - 2.0.2-preview
+    - 2.0.3-preview
+    - 2.0.5-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 2.0.9-preview
+    - 2.0.10-preview
+    - 2.0.11-preview
+    - 2.0.12-preview
+    - 2.0.13-preview
+    - 2.0.14-preview
+    - 2.0.15-preview
+    - 2.0.16-preview
+    - 2.0.17-preview
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.5
+    - 2.1.6
+    - 2.1.7
+    - 2.2.1
+    - 2.2.2
+    - 2.3.0
+    - 3.0.1
+    - 3.0.3
+    - 3.1.0
+    - 3.1.1
+    - 3.2.0
+    - 3.2.1
+    - 3.2.2
+    - 3.3.0
+    - 3.4.0
+    compatible:
+    - 3.4.0
+    recommended: 3.4.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638384897060000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.postprocessing@3.4/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/Graphics.git
+    revision: 54427d2529ad1a9e8f31c693d751c6371f914e40
+    path: 
+  unityLifecycle:
+    version: 3.4.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n- Added WebGPU support\n\n### Fixed\n- Fixed
+    obsolete FormatUsage error\n- Fixed non-scalar logical operation error\n- Fixed
+    MSVO to support platforms with limited storage texture support\n- Fixed compute
+    based effects not supported on WebGL and Android OpenGL (IN-2999)\n- Fixed grid
+    gizmo is visible through geometry when Post Process Layer is enabled (IN-10318)\n-
+    Fixed transparent objects rendering incorrectly when TAA is disabled (IN-31494)"}'
+  assetStore:
+    productId: 
+  fingerprint: 026b2a0827a438e3079df62a60ca03d54961393d
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 3.4.0
+    minimumUnityVersion: 2019.4.19f1
 - packageId: com.unity.render-pipelines.universal@17.0.3
   testable: 0
   isDirectDependency: 1
@@ -878,7 +991,7 @@ m_ResolvedPackages:
   - name: com.unity.collections
     version: 2.5.1
   - name: com.unity.test-framework
-    version: 1.4.5
+    version: 1.4.6
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
@@ -943,10 +1056,10 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
     minimumUnityVersion: 6000.0.0a1
-- packageId: com.unity.test-framework@1.4.5
+- packageId: com.unity.test-framework@1.4.6
   testable: 0
   isDirectDependency: 1
-  version: 1.4.5
+  version: 1.4.6
   source: 1
   resolvedPath: E:\fails\iT\Isxodnik\Git\CoffeeHorror\CoffeeHorror\Library\PackageCache\com.unity.test-framework
   assetPath: Packages/com.unity.test-framework
@@ -957,7 +1070,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Unity Test Framework
-  type: assets
+  type: 
   description: Test framework for running Edit mode and Play mode tests in Unity.
   errors: []
   versions:
@@ -1054,13 +1167,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638575054880000000
+  datePublishedTicks: 638743524358990000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.test-framework@1.4/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-    revision: e50747c90fb18ab9f4f350b60d0fcdcae19bdebc
+    revision: 9c6028f63a9b875e714b65de151b74e170152d49
     path: 
   unityLifecycle:
     version: 1.4.5
@@ -1073,45 +1186,33 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"- Fixed an issue where batchmode test runs would never
-    finish if a test yielded WaitForEndOfFrame (DSTR-1009).\n- Fixed an issue where
-    the location prompt was required when using the Install all tests in ''build''
-    folder option during test builds.\n- Canceling a PlayMode test run now correctly
-    restores the scene setup, instead of leaving the editor in the test scene.\n-
-    Fixed an issue where UnitySetUp did not fail when nested coroutines threw an
-    exception (DSTR-1007).\n- When selecting multiple tests and running them, the
-    test runner now correctly updates the details of the first selected test (UTF-602).\n-
-    The interaction mode and application idle time settings is now being changes
-    when running tests, resulting in faster test runs if not already in use (applies
-    to 2020.3 and later) (DSTR-690).\n- Fixed an issue where some NUnit attributes
-    caused errors and stopped async test runs (DSTR-1040).\n- Added support for the
-    MaxTime attribute on async and UnityTest methods (DSTR-1040).\n- Fixed a memory
-    leak issue where a large number of domain reloads within the same test could
-    crash the editor (DSTR-1023).\n- Changed to use a progress bar inside the test
-    runner window when running tests. This ensures that the progress bar is not fighting
-    to display when e.g. compiling scripts and also makes it easier to cancel a run.
-    This progress bar is displayed for all types of runs (EditMode, PlayMode and
-    Player). (UTF-596).\n- Fixed an issue where ignored tests with an attributes
-    did not display the ignore reason in the test runner UI.\n- Having multiple tests
-    with the same unique id no longer gives a error with ''An item with the same
-    key has already been added'', but instead logs an warning about the duplicate
-    id.\n- The result icons for test suites should no longer flicker when running
-    tests.\n- Ensured that test results ignored in the editor but run on a player
-    are not overwritten with ignore status when shown in the UI (DSTR-1042).\n- Fixed
-    an issue where the RunStarted event was not invoked correctly during a test run
-    (DSTR-1046).\n- Fixed an issue where TestStarted and TestFinished events were
-    repeated for ignored test fixtures after a domain reload (DSTR-986)."}'
+  upmReserved: '{"changelog":"- Fixed an issue where the architecture flag would
+    not be parsed for the StandaloneOSX platform.\n- Fixed an issue where the test
+    results ui and progress bar would not update before a user input, such as mouse
+    movement, was detected (UTF-609).\n- Fixed an issue where root of the test tree
+    was marked as NotRun, when all the tests were run and at least one test is ignore.\n-
+    Ensure that an error is raised and the test run is stopped if a playmode test
+    method exits playmode (DSTR-1091). \n- Async editmode tests are no longer throw
+    error when yielding a different value than null (DSTR-1066)\n- Fixed an issue
+    where the \"C# Test Script\" button was always disabled in One Column view in
+    Project tab. (DSTR-1083)\n- Async and UnityTest can now use ParametrizedIgnore
+    attribute. (DSTR-1068)\n- Corrected Timeout to only apply to the test method
+    and not the teardown methods, ensuring that TearDown is always run if a test
+    case times out (DSTR-1077).\n- Added a queue size indicator in the player side
+    test result ui. This can be used to track the progress of sending back result
+    data to the editor.\n- Parent node of the test tree is now updated after all
+    children finish running and have a result."}'
   assetStore:
     productId: 
-  fingerprint: 0a21eb82d95cd331643a1e0ce4e8e9a5f18954c8
+  fingerprint: 5ac417e07314c8f6afba8109738c32b82d391e68
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.4.5
-    minimumUnityVersion: 2019.4.0a10
-- packageId: com.unity.timeline@1.8.7
+    minimumUnityVersion: 2019.4.1f1
+- packageId: com.unity.timeline@1.8.8
   testable: 0
   isDirectDependency: 1
-  version: 1.8.7
+  version: 1.8.8
   source: 1
   resolvedPath: E:\fails\iT\Isxodnik\Git\CoffeeHorror\CoffeeHorror\Library\PackageCache\com.unity.timeline
   assetPath: Packages/com.unity.timeline
@@ -1122,7 +1223,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
   errors: []
@@ -1257,13 +1358,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638524833900000000
+  datePublishedTicks: 638739338167810000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: d6432ca638481c3d0e4c01f87f9cdbe3c4b1d529
+    revision: b01f8fc6766a468476830dec57fdf694f16104e6
     path: 
   unityLifecycle:
     version: 1.8.7
@@ -1276,24 +1377,22 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n\n- Released ronl-workflow-custom-marker.md
-    Added a new workflow to the Timeline Workflows documentation:\n- Released ronl-workflow-custom-marker.md
-    The `Create a custom Notes marker` workflow demonstrates how to create a custom
-    marker for adding notes to Timeline instances. This workflow also demonstrates
-    how to change the default appearance of a custom marker with scripting and a
-    Unity Style Sheet (USS).\n\n### Fixed\n\n- Fixed bug where using , and . (<>)
-    to step frames in the Animation Window while the Timeline Window was linked would
-    sometimes not work. [IN-56667](https://unity3d.atlassian.net/servicedesk/customer/portal/2/IN-56667)\n-
-    When the Timeline and Animation windows are linked and the Timeline Window is
-    active, moving the playhead in the Timeline Window will cause the animation window
-    to repaint immediately."}'
+  upmReserved: '{"changelog":"### Fixed\n\n- Fixed bug where the first property,
+    when it is a collection of objects, of a TrackAsset would not be properly displayed
+    in the inspector.\n- TimelineAsset.EditorSettings.SetStandardFrameRate would
+    incorrectly throw an ArgumentException if given a valid StandardFrameRates, this
+    has been corrected.\n- Clip blends will now be computed when using the API to
+    add clips to tracks - IN-66759\n- Improved performance when evaluating Timeline
+    Playables with a large number of clip based Animation Tracks (TB-259)\n- Updated
+    the Gameplay Sequence sample to show materials when using the Universal and HD
+    Render Pipelines."}'
   assetStore:
     productId: 
-  fingerprint: c58b4ee65782ad38338e29f7ee67787cb6998f04
+  fingerprint: fa3a0bab2b909389f8e6c20d5ff275c9e15ae0a2
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.8.7
-    minimumUnityVersion: 2019.3.0a1
+    minimumUnityVersion: 2021.3.0a1
 - packageId: com.unity.ugui@2.0.0
   testable: 0
   isDirectDependency: 1
@@ -1386,10 +1485,10 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
     minimumUnityVersion: 2019.2.0a1
-- packageId: com.unity.visualscripting@1.9.5
+- packageId: com.unity.visualscripting@1.9.7
   testable: 0
   isDirectDependency: 1
-  version: 1.9.5
+  version: 1.9.7
   source: 1
   resolvedPath: E:\fails\iT\Isxodnik\Git\CoffeeHorror\CoffeeHorror\Library\PackageCache\com.unity.visualscripting
   assetPath: Packages/com.unity.visualscripting
@@ -1474,13 +1573,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638659692270900000
+  datePublishedTicks: 638835226812630000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 3621ef0207747a605f195118ba99d1a8bdb19433
+    revision: 8292335505915a41ec7c5cc8e08ac436e24120a9
     path: 
   unityLifecycle:
     version: 1.9.5
@@ -1493,16 +1592,18 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fixed \"NullReferenceException\" error
-    when returning to the State Graph from the Script Graph. [UVSB-1905](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-1905)\n-
-    Fixed compilation error when a graph contains a reference to a method with an
-    \"in\" parameter. [UVSB-2544](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2487)\n-
-    Added missing truncate function to Formula node [UVSB-2526](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2525)\n-
-    Fixed an error when creating a Script Graph asset in an empty project\n\n###
-    Changed\n- Updated deprecated EditorAnalytics APIs to new ones"}'
+  upmReserved: '{"changelog":"### Fixed\n- Fixed a warning \"Unable to load Unity.Android.Gradle''s
+    referenced assembly NiceIO\" when scanning assemblies. [UVSB-2594](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2594)\n-
+    Fixed error when trying to load fuzzy finder on multi screen setup on Mac. [UVSB-2419](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2419)\n-
+    Fixed the `AOTSafeMode` project setting appearing in the Editor Preferences window.
+    It is now shown in the Project Settings tab for Visual Scripting. [UVSB-2590](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2590)\n-
+    Fixed possible crash on VisionOS. [UVSB-2565](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2565)\n\n###
+    Changed\n- The `AOTSafeMode` project setting has been marked as not visible,
+    it will no longer be included when calling `ConfigurationPanel.GetSearchKeywords`.
+    [UVSB-2590](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2590)"}'
   assetStore:
     productId: 
-  fingerprint: 1b53f46e931bea668e53f1feb0ac9138170c9455
+  fingerprint: 6279e2b7c4858e56cca7f367cd38c49ef66778c9
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.9.5
@@ -2205,6 +2306,73 @@ m_ResolvedPackages:
   type: module
   description: 'The JSONSerialize module provides the JsonUtility class which lets
     you serialize Unity Objects to JSON format. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.JSONSerializeModule.html'
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+- packageId: com.unity.modules.nvidia@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: E:\fails\iT\Isxodnik\Git\CoffeeHorror\CoffeeHorror\Library\PackageCache\com.unity.modules.nvidia
+  assetPath: Packages/com.unity.modules.nvidia
+  name: com.unity.modules.nvidia
+  displayName: NVIDIA
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 'A module that contains API you can use to interact with NVIDIA graphics
+    cards. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.NVIDIAModule.html'
   errors: []
   versions:
     all:
@@ -4168,7 +4336,7 @@ m_ResolvedPackages:
   - name: com.unity.collections
     version: 2.5.1
   - name: com.unity.test-framework
-    version: 1.4.5
+    version: 1.4.6
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
@@ -4369,7 +4537,7 @@ m_ResolvedPackages:
   - name: com.unity.collections
     version: 2.5.1
   - name: com.unity.test-framework
-    version: 1.4.5
+    version: 1.4.6
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
@@ -4469,7 +4637,7 @@ m_ResolvedPackages:
   - name: com.unity.collections
     version: 2.5.1
   - name: com.unity.test-framework
-    version: 1.4.5
+    version: 1.4.6
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
@@ -5041,7 +5209,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.test-framework
-    version: 1.4.5
+    version: 1.4.6
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
@@ -5138,7 +5306,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.test-framework
-    version: 1.4.5
+    version: 1.4.6
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
@@ -5358,7 +5526,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.4.5
+    version: 1.4.6
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
