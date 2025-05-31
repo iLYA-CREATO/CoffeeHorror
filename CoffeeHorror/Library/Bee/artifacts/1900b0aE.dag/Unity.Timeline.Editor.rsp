@@ -124,6 +124,7 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:TIMELINE_FRAMEACCURATE
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -525,6 +526,7 @@
 "Library/PackageCache/com.unity.timeline/Editor/Recording/TimelineRecording_Monobehaviour.cs"
 "Library/PackageCache/com.unity.timeline/Editor/Recording/TimelineRecording_PlayableAsset.cs"
 "Library/PackageCache/com.unity.timeline/Editor/Recording/TrackAssetRecordingExtensions.cs"
+"Library/PackageCache/com.unity.timeline/Editor/Samples/SampleDependencyImporter.cs"
 "Library/PackageCache/com.unity.timeline/Editor/Shortcuts.cs"
 "Library/PackageCache/com.unity.timeline/Editor/Signals/SignalAssetInspector.cs"
 "Library/PackageCache/com.unity.timeline/Editor/Signals/SignalEmitterEditor.cs"

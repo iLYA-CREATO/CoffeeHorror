@@ -124,6 +124,7 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -define:UNITY_EDITOR_ONLY_COMPILATION
@@ -399,10 +400,12 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Library/PackageCache/com.unity.ai.navigation/Editor/Updater/AssemblyInfo.cs"
-"Library/PackageCache/com.unity.ai.navigation/Editor/Updater/BuiltInToNavMeshSurfaceConverterContainer.cs"
+"Library/PackageCache/com.unity.ai.navigation/Editor/Updater/NavigationConverterContainer.cs"
+"Library/PackageCache/com.unity.ai.navigation/Editor/Updater/NavigationUpdaterEditor.cs"
 "Library/PackageCache/com.unity.ai.navigation/Editor/Updater/NavMeshSceneConverter.cs"
-"Library/PackageCache/com.unity.ai.navigation/Editor/Updater/NavMeshUpdaterEditor.cs"
 "Library/PackageCache/com.unity.ai.navigation/Editor/Updater/NavMeshUpdaterUtility.cs"
+"Library/PackageCache/com.unity.ai.navigation/Editor/Updater/OffMeshLinkConverter.cs"
+"Library/PackageCache/com.unity.ai.navigation/Editor/Updater/OffMeshLinkUpdaterUtility.cs"
 -langversion:9.0
 /deterministic
 /optimize+

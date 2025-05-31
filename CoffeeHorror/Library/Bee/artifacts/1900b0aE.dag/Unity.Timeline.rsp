@@ -127,6 +127,7 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:TIMELINE_FRAMEACCURATE
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -206,6 +207,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.MarshallingModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.MultiplayerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.NVIDIAModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
@@ -412,6 +414,7 @@
 "Library/PackageCache/com.unity.timeline/Runtime/ClipCaps.cs"
 "Library/PackageCache/com.unity.timeline/Runtime/Control/ControlPlayableAsset.cs"
 "Library/PackageCache/com.unity.timeline/Runtime/Control/ControlTrack.cs"
+"Library/PackageCache/com.unity.timeline/Runtime/CurveEditUtility.cs"
 "Library/PackageCache/com.unity.timeline/Runtime/DiscreteTime.cs"
 "Library/PackageCache/com.unity.timeline/Runtime/Evaluation/InfiniteRuntimeClip.cs"
 "Library/PackageCache/com.unity.timeline/Runtime/Evaluation/IntervalTree.cs"
@@ -449,9 +452,11 @@
 "Library/PackageCache/com.unity.timeline/Runtime/TimelineAttributes.cs"
 "Library/PackageCache/com.unity.timeline/Runtime/TimelineClip.cs"
 "Library/PackageCache/com.unity.timeline/Runtime/TimelinePlayable.cs"
+"Library/PackageCache/com.unity.timeline/Runtime/TimelinePlayable_Animation.cs"
 "Library/PackageCache/com.unity.timeline/Runtime/TrackAsset.cs"
 "Library/PackageCache/com.unity.timeline/Runtime/Utilities/AnimationPreviewUtilities.cs"
 "Library/PackageCache/com.unity.timeline/Runtime/Utilities/AnimatorBindingCache.cs"
+"Library/PackageCache/com.unity.timeline/Runtime/Utilities/BlendUtility.cs"
 "Library/PackageCache/com.unity.timeline/Runtime/Utilities/Extrapolation.cs"
 "Library/PackageCache/com.unity.timeline/Runtime/Utilities/FrameRate.cs"
 "Library/PackageCache/com.unity.timeline/Runtime/Utilities/HashUtility.cs"
