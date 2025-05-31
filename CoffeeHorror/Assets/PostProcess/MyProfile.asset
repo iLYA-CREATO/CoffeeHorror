@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: MyProfile
   m_EditorClassIdentifier: 
   settings:
-  - {fileID: 5589036339081446396}
   - {fileID: 721988859739933326}
 --- !u!114 &721988859739933326
 MonoBehaviour:
@@ -33,27 +32,27 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 15.04
+    value: 199.71
   threshold:
-    overrideState: 1
-    value: 1
+    overrideState: 0
+    value: 0
   softKnee:
-    overrideState: 1
-    value: 0.221
+    overrideState: 0
+    value: 0.286
   clamp:
-    overrideState: 1
+    overrideState: 0
     value: 1
   diffusion:
-    overrideState: 1
+    overrideState: 0
     value: 1.38
   anamorphicRatio:
-    overrideState: 1
+    overrideState: 0
     value: 0
   color:
-    overrideState: 1
+    overrideState: 0
     value: {r: 1, g: 0, b: 0, a: 1}
   fastMode:
-    overrideState: 1
+    overrideState: 0
     value: 0
   dirtTexture:
     overrideState: 0
@@ -62,55 +61,3 @@ MonoBehaviour:
   dirtIntensity:
     overrideState: 0
     value: 0
---- !u!114 &5589036339081446396
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1cb7e9e120078f43bce4f0b1be547a7, type: 3}
-  m_Name: AmbientOcclusion
-  m_EditorClassIdentifier: 
-  active: 1
-  enabled:
-    overrideState: 1
-    value: 1
-  mode:
-    overrideState: 1
-    value: 1
-  intensity:
-    overrideState: 1
-    value: 0
-  color:
-    overrideState: 1
-    value: {r: 0, g: 0, b: 0, a: 1}
-  ambientOnly:
-    overrideState: 1
-    value: 1
-  noiseFilterTolerance:
-    overrideState: 0
-    value: 0
-  blurTolerance:
-    overrideState: 0
-    value: -4.6
-  upsampleTolerance:
-    overrideState: 0
-    value: -12
-  thicknessModifier:
-    overrideState: 1
-    value: 1
-  zBias:
-    overrideState: 1
-    value: 0.0001
-  directLightingStrength:
-    overrideState: 1
-    value: 0
-  radius:
-    overrideState: 0
-    value: 0.25
-  quality:
-    overrideState: 0
-    value: 2

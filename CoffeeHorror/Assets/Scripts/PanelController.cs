@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using UnityEditor.Build;
 using UnityEngine;
 
 public class PanelController : MonoBehaviour
@@ -19,6 +18,10 @@ public class PanelController : MonoBehaviour
     [SerializeField, Header("Конторллер песонажа")]
     private PlayerController playerController;
 
+    private void Start()
+    {
+        LockerControllers();
+    }
     private void OnEnable()
     {
         ESC.OnOpenESC += CheckOpenPanel;
@@ -32,12 +35,7 @@ public class PanelController : MonoBehaviour
         ESC.OnOpenDopPanelESC -= OpenDopPanelESC;
         ESC.OnClouseDopPanelESC -= ClouseDopPanelESC;
     }
-    // Метод реагирует на действия инвенторя и распределяет
-
-    private void Update()
-    {
-        LockerControllers();
-    }
+ /*   // Метод реагирует на действия инвенторя и распределяет
 
     /// <summary>
     /// Закрывает все окна
@@ -154,7 +152,7 @@ public class PanelController : MonoBehaviour
             basePanelPlayerInventory.SetActive(state);
             basePanelPlayer.SetActive(state);
         }
-    }
+    }*/
 
     /// <summary>
     /// Метод проверяет перед открытием если что-то открыто то он закрывает 
@@ -185,16 +183,13 @@ public class PanelController : MonoBehaviour
                 ClousePanel(i);
             }
             panelsIsOpen.Clear();
-
-            OnChangeCursor?.Invoke(true);
         }
         else if(panelsIsOpen.Count == 0)
         {
             panelESC.SetActive(true);
             panelsIsOpen.Add(panelESC);
-
-            OnChangeCursor?.Invoke(false);
         }
+        LockerControllers();
     }
 
     private void OpenDopPanelESC(GameObject panelESC)
@@ -217,7 +212,7 @@ public class PanelController : MonoBehaviour
     }
     #endregion
 
-    #region Стандартные методы на открытие закрытие панелей
+/*    #region Стандартные методы на открытие закрытие панелей
     private void OpenDopPanel(GameObject panel, bool cursorState)
     {
         panel.SetActive(true);
@@ -236,7 +231,7 @@ public class PanelController : MonoBehaviour
         }
         OnChangeCursor?.Invoke(cursorState);
     }
-    #endregion
+    #endregion*/
 
     private void ClousePanel(int i)
     {
@@ -251,10 +246,12 @@ public class PanelController : MonoBehaviour
         if (panelsIsOpen.Count > 0)
         {
             playerController.LockController(true);
+            OnChangeCursor?.Invoke(false);
         }
         else
         {
             playerController.LockController(false);
+            OnChangeCursor?.Invoke(true);
         }
     }
 }

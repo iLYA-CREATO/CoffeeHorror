@@ -8,14 +8,16 @@ public class MoneyTextSpawner : MonoBehaviour
     [SerializeField] private float spawnDistance = 2f;
     [SerializeField] private float spawnHeight = 1f;
 
-    private void Update()
+    private void OnEnable()
     {
-        if(Input.GetKeyDown(KeyCode.Q))
-        {
-            SpawnMoneyText(1);
-        }
+        OrderUI.OnSpawnNextNPC += SpawnMoneyText;
     }
-    public void SpawnMoneyText(int amount)
+
+    private void OnDisable()
+    {
+        OrderUI.OnSpawnNextNPC -= SpawnMoneyText;
+    }
+    public void SpawnMoneyText(float amount)
     {
         // Вычисляем позицию перед камерой
         Vector3 spawnPosition = playerCamera.position +

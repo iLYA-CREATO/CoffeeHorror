@@ -35,9 +35,9 @@ public class MoneyTextEffect : MonoBehaviour
         }
     }
 
-    public void SetText(int amount)
+    public void SetText(float amount)
     {
-        moneyText.text = (amount > 0 ? "+" : "") + amount.ToString();
+        moneyText.text = (amount > 0 ? "+" : "") + amount + "$";
         moneyText.color = amount > 0 ? Color.green : Color.red;
     }
 }

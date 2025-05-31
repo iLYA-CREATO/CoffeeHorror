@@ -1,15 +1,17 @@
 using System;
 using UnityEngine;
+using static UnityEditor.Timeline.Actions.MenuPriority;
 
 public class NPCDesire : MonoBehaviour
 {
+    public static event Action<ThiseItem> OnAddItem;
     [SerializeField]
     private AudioSource m_AudioSource;
     [SerializeField]
     private AudioClip audioClip;
     public static event Action<bool> OnGoBack;
     [SerializeField]
-    private NPCNeadItemm _NPCNeadItemm;
+    private NPCNeedItem _NPCNeadItemm;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -22,6 +24,7 @@ public class NPCDesire : MonoBehaviour
             {
                 if (thiseItem.item == _NPCNeadItemm.needItem[i])
                 {
+                    OnAddItem?.Invoke(thiseItem);
                     m_AudioSource.PlayOneShot(audioClip);
                     Debug.Log("NPC говорит это то что я хотел");
                     _NPCNeadItemm.needItem.RemoveAt(i);
@@ -35,8 +38,6 @@ public class NPCDesire : MonoBehaviour
                 OnGoBack?.Invoke(true);
                 Debug.Log("Я всё взял пойду домой");
             }
-
-
         }
         else
         {

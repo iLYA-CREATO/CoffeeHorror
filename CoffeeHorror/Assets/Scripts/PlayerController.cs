@@ -22,7 +22,6 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
-        Cursor.visible = false;
     }
 
     private void Update()
