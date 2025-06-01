@@ -23,9 +23,4 @@ What needs to be done - Just make coffee, make burgers and please the customers.
 Что нужно делать - Просто наводить кофе делать бургеры и радовать клиентов
 
 
-(Icon ScreenShots/icon_1.png)
-(Icon ScreenShots/icon_2.png)
-(Icon ScreenShots/icon_3.png)
-(Icon ScreenShots/icon_4.png)
-(Icon ScreenShots/icon_5.png)
-(Icon ScreenShots/icon_6.png)
+![Screen](/ScreenShots/icon_1.png) 
