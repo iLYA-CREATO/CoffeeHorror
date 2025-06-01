@@ -24,6 +24,7 @@
 		<type fullname="PanelController" preserve="nothing"/>
 		<type fullname="PlayerController" preserve="nothing"/>
 		<type fullname="RayCastAction" preserve="nothing"/>
+		<type fullname="ScreenshotTaker" preserve="nothing"/>
 		<type fullname="SpawnNPC" preserve="nothing"/>
 		<type fullname="ThiseItem" preserve="nothing"/>
 		<type fullname="TrigCap" preserve="nothing"/>

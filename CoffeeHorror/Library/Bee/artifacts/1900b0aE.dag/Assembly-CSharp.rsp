@@ -512,6 +512,7 @@
 "Assets/Scripts/TrigCap.cs"
 "Assets/Scripts/TrigCoffeeMachine.cs"
 "Assets/Scripts/TrigNPCDoor.cs"
+"Assets/Scripts/Utils/ScreenshotTaker.cs"
 "Assets/Scripts/Wallet.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
